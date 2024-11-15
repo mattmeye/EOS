@@ -9,6 +9,9 @@ EOS.config.json
 !.vscode/extensions.json
 !.vscode/*.code-snippets
 
+# Default ingore folder for IntelliJ
+.idea/*
+
 # Local History for Visual Studio Code
 .history/
 
