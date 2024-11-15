@@ -8,6 +8,9 @@ copyright: Copyright &copy; 2024, Andreas Schmitz
 theme:
   name: material
   logo: _static/logo.png
+  palette:
+    scheme: default
+    accent: lime
   features:
     - content.action.edit
 
