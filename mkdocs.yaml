@@ -1,3 +1,7 @@
 site_name: Energy System Simulation and Optimization
+repo_url: https://github.com/mattmeye/EOS
+edit_uri: edit/main/docs/
 theme:
   name: material
+  features:
+    - content.action.edit
