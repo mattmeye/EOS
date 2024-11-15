@@ -20,3 +20,13 @@ services:
       - ./src/akkudoktoreos/default.config.json:/opt/eos/EOS.config.json:ro
     ports:
       - "${EOS_PORT}:${EOS_PORT}"
+  docs:
+    image: squidfunk/mkdocs-material:9
+    restart: always
+    networks:
+      - eos
+    volumes:
+      - ./docs/mkdocs.yaml:/docs/mkdocs.yaml:ro
+      - ./docs:/docs/docs:ro
+    ports:
+      - "8000:8000"
