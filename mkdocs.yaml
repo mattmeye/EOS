@@ -10,6 +10,7 @@ theme:
   logo: _static/logo.png
   palette:
     scheme: default
-    accent: lime
+    primary: lime
+    accent: yellow
   features:
     - content.action.edit
