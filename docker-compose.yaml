@@ -26,7 +26,7 @@ services:
     networks:
       - eos
     volumes:
-      - ./docs/mkdocs.yaml:/docs/mkdocs.yaml:ro
+      - ./mkdocs.yaml:/docs/mkdocs.yaml:ro
       - ./docs:/docs/docs:ro
     ports:
       - "8000:8000"
