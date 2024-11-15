@@ -3,5 +3,6 @@ repo_url: https://github.com/mattmeye/EOS
 edit_uri: edit/main/docs/
 theme:
   name: material
+  logo: _static/logo.png
   features:
     - content.action.edit
