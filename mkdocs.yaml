@@ -1,8 +1,13 @@
 site_name: Energy System Simulation and Optimization
+
 repo_url: https://github.com/mattmeye/EOS
 edit_uri: edit/main/docs/
+
+copyright: Copyright &copy; 2024, Andreas Schmitz
+
 theme:
   name: material
   logo: _static/logo.png
   features:
     - content.action.edit
+
